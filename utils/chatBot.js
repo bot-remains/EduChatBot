@@ -7,7 +7,7 @@ import {
 import { ChatOpenAI } from '@langchain/openai';
 import 'dotenv/config';
 import getPageContent from './getPageContent.js';
-import historyFormat from './historyFormat.js';
+import formatConvHistory from './historyFormat.js';
 import retriever from './retriever.js';
 
 const openAIApiKey = process.env.OPENAI_API_KEY;
@@ -59,7 +59,7 @@ const mainChain = RunnableSequence.from([
 export const chatBotResponse = async (statement, conversationHistory) => {
   const response = await mainChain.invoke({
     statement,
-    conversationHistory: historyFormat(conversationHistory),
+    conversationHistory: formatConvHistory(conversationHistory),
   });
   return response;
 };
