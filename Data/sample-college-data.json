@@ -1,0 +1,543 @@
+[
+  {
+    "college_id": 101,
+    "name": "Rajasthan Institute of Technology",
+    "category": "Engineering",
+    "location": "Jaipur",
+    "fee_structure": {
+      "tuition_fee": "120,000 INR per year",
+      "hostel_fee": "50,000 INR per year",
+      "miscellaneous": "10,000 INR per year"
+    },
+    "curriculum": [
+      "B.Tech in Computer Science",
+      "B.Tech in Mechanical Engineering",
+      "B.Tech in Civil Engineering",
+      "B.Tech in Electrical Engineering"
+    ],
+    "scholarships": [
+      {
+        "name": "Merit-Based Scholarship",
+        "description": "50% tuition fee waiver for students scoring above 90% in 12th grade."
+      },
+      {
+        "name": "Need-Based Scholarship",
+        "description": "25% tuition fee waiver for economically weaker sections."
+      }
+    ],
+    "hostel_facilities": {
+      "boys_hostel": "Available",
+      "girls_hostel": "Available",
+      "amenities": ["Wi-Fi", "Gym", "Library", "Mess"]
+    },
+    "placement_scenario": {
+      "2023": {
+        "total_students_placed": 200,
+        "highest_package": "15 LPA",
+        "average_package": "7 LPA",
+        "top_recruiters": ["Infosys", "TCS", "Wipro", "Capgemini"]
+      }
+    },
+    "alumni": [
+      {
+        "name": "Amit Sharma",
+        "graduation_year": 2018,
+        "current_position": "Software Engineer at Google",
+        "achievements": "Developed a key module for Google Maps."
+      },
+      {
+        "name": "Priya Jain",
+        "graduation_year": "2017",
+        "current_position": "Product Manager at Microsoft",
+        "achievements": "Led the development of new features in Microsoft Teams."
+      }
+    ],
+    "previous_year_cutoff": {
+      "general": 85,
+      "obc": 78,
+      "sc_st": 70,
+      "ews": 80
+    }
+  },
+  {
+    "college_id": 102,
+    "name": "Maharaja Polytechnic College",
+    "category": "Polytechnic",
+    "location": "Kota",
+    "fee_structure": {
+      "tuition_fee": "60,000 INR per year",
+      "hostel_fee": "40,000 INR per year",
+      "miscellaneous": "8,000 INR per year"
+    },
+    "curriculum": [
+      "Diploma in Mechanical Engineering",
+      "Diploma in Electrical Engineering",
+      "Diploma in Civil Engineering"
+    ],
+    "scholarships": [
+      {
+        "name": "Government Scholarship for SC/ST",
+        "description": "Full tuition fee waiver for SC/ST students."
+      },
+      {
+        "name": "Sports Scholarship",
+        "description": "20% tuition fee waiver for students excelling in state or national-level sports."
+      }
+    ],
+    "hostel_facilities": {
+      "boys_hostel": "Available",
+      "girls_hostel": "Available",
+      "amenities": ["24/7 Security", "Wi-Fi", "Cafeteria"]
+    },
+    "placement_scenario": {
+      "2023": {
+        "total_students_placed": 100,
+        "highest_package": "6 LPA",
+        "average_package": "3.5 LPA",
+        "top_recruiters": ["L&T", "BHEL", "Adani Power"]
+      }
+    },
+    "alumni": [
+      {
+        "name": "Rakesh Yadav",
+        "graduation_year": 2016,
+        "current_position": "Senior Technician at L&T",
+        "achievements": "Played a key role in the construction of metro projects."
+      }
+    ],
+    "previous_year_cutoff": {
+      "general": 75,
+      "obc": 70,
+      "sc_st": 60,
+      "ews": 72
+    }
+  },
+  {
+    "college_id": 103,
+    "name": "Jaipur National University",
+    "category": "Engineering",
+    "location": "Jaipur",
+    "fee_structure": {
+      "tuition_fee": "130,000 INR per year",
+      "hostel_fee": "55,000 INR per year",
+      "miscellaneous": "12,000 INR per year"
+    },
+    "curriculum": [
+      "B.Tech in Information Technology",
+      "B.Tech in Electronics and Communication",
+      "B.Tech in Biotechnology",
+      "B.Tech in Chemical Engineering"
+    ],
+    "scholarships": [
+      {
+        "name": "Academic Excellence Scholarship",
+        "description": "30% tuition fee waiver for top 10% of students in each course."
+      },
+      {
+        "name": "Rural Student Scholarship",
+        "description": "40% tuition fee waiver for students from rural backgrounds."
+      }
+    ],
+    "hostel_facilities": {
+      "boys_hostel": "Available",
+      "girls_hostel": "Available",
+      "amenities": ["Wi-Fi", "Medical Facilities", "Sports Complex", "Library"]
+    },
+    "placement_scenario": {
+      "2023": {
+        "total_students_placed": 250,
+        "highest_package": "18 LPA",
+        "average_package": "8 LPA",
+        "top_recruiters": ["Accenture", "IBM", "Amazon", "Infosys"]
+      }
+    },
+    "alumni": [
+      {
+        "name": "Sanjay Meena",
+        "graduation_year": 2019,
+        "current_position": "Data Scientist at Amazon",
+        "achievements": "Contributed to machine learning algorithms for product recommendations."
+      }
+    ],
+    "previous_year_cutoff": {
+      "general": 88,
+      "obc": 82,
+      "sc_st": 74,
+      "ews": 85
+    }
+  },
+  {
+    "college_id": 104,
+    "name": "Birla Institute of Technology & Science",
+    "category": "Engineering",
+    "location": "Pilani",
+    "fee_structure": {
+      "tuition_fee": "180,000 INR per year",
+      "hostel_fee": "60,000 INR per year",
+      "miscellaneous": "15,000 INR per year"
+    },
+    "curriculum": [
+      "B.Tech in Computer Science",
+      "B.Tech in Electrical and Electronics Engineering",
+      "B.Tech in Chemical Engineering",
+      "B.Tech in Mechanical Engineering"
+    ],
+    "scholarships": [
+      {
+        "name": "BITS Merit Scholarship",
+        "description": "25% tuition fee waiver for top 5% of students in each branch."
+      },
+      {
+        "name": "BITSAT Scholarship",
+        "description": "50% tuition fee waiver for students with top scores in BITSAT exam."
+      }
+    ],
+    "hostel_facilities": {
+      "boys_hostel": "Available",
+      "girls_hostel": "Available",
+      "amenities": ["Wi-Fi", "Cafeteria", "Library", "Gym"]
+    },
+    "placement_scenario": {
+      "2023": {
+        "total_students_placed": 300,
+        "highest_package": "25 LPA",
+        "average_package": "12 LPA",
+        "top_recruiters": ["Google", "Microsoft", "Adobe", "Flipkart"]
+      }
+    },
+    "alumni": [
+      {
+        "name": "Rajesh Kumar",
+        "graduation_year": 2017,
+        "current_position": "Senior Software Engineer at Adobe",
+        "achievements": "Developed key features for Adobe Creative Cloud."
+      }
+    ],
+    "previous_year_cutoff": {
+      "general": 92,
+      "obc": 85,
+      "sc_st": 78,
+      "ews": 89
+    }
+  },
+  {
+    "college_id": 105,
+    "name": "Government Polytechnic College",
+    "category": "Polytechnic",
+    "location": "Jodhpur",
+    "fee_structure": {
+      "tuition_fee": "50,000 INR per year",
+      "hostel_fee": "30,000 INR per year",
+      "miscellaneous": "7,000 INR per year"
+    },
+    "curriculum": [
+      "Diploma in Computer Science",
+      "Diploma in Electrical Engineering",
+      "Diploma in Civil Engineering"
+    ],
+    "scholarships": [
+      {
+        "name": "Government Scholarship for OBC",
+        "description": "Full tuition fee waiver for OBC students."
+      },
+      {
+        "name": "Minority Scholarship",
+        "description": "50% tuition fee waiver for students from minority communities."
+      }
+    ],
+    "hostel_facilities": {
+      "boys_hostel": "Available",
+      "girls_hostel": "Available",
+      "amenities": ["Wi-Fi", "24/7 Security", "Canteen"]
+    },
+    "placement_scenario": {
+      "2023": {
+        "total_students_placed": 80,
+        "highest_package": "5 LPA",
+        "average_package": "3 LPA",
+        "top_recruiters": ["Tata Motors", "HPCL", "BSNL"]
+      }
+    },
+    "alumni": [
+      {
+        "name": "Neha Verma",
+        "graduation_year": 2015,
+        "current_position": "Junior Engineer at Tata Motors",
+        "achievements": "Contributed to the development of electric vehicle technology."
+      }
+    ],
+    "previous_year_cutoff": {
+      "general": 70,
+      "obc": 65,
+      "sc_st": 55,
+      "ews": 68
+    }
+  },
+  {
+    "college_id": 106,
+    "name": "LNM Institute of Information Technology",
+    "category": "Engineering",
+    "location": "Jaipur",
+    "fee_structure": {
+      "tuition_fee": "140,000 INR per year",
+      "hostel_fee": "52,000 INR per year",
+      "miscellaneous": "11,000 INR per year"
+    },
+    "curriculum": [
+      "B.Tech in Computer Science",
+      "B.Tech in Electronics and Communication",
+      "B.Tech in Mechanical Engineering"
+    ],
+    "scholarships": [
+      {
+        "name": "LNMIIT Merit Scholarship",
+        "description": "30% tuition fee waiver for top 10% students."
+      },
+      {
+        "name": "LNMIIT Sports Scholarship",
+        "description": "20% tuition fee waiver for national-level athletes."
+      }
+    ],
+    "hostel_facilities": {
+      "boys_hostel": "Available",
+      "girls_hostel": "Available",
+      "amenities": ["Wi-Fi", "Cafeteria", "Gym", "Library"]
+    },
+    "placement_scenario": {
+      "2023": {
+        "total_students_placed": 220,
+        "highest_package": "16 LPA",
+        "average_package": "8 LPA",
+        "top_recruiters": ["Amazon", "Wipro", "TCS", "Cognizant"]
+      }
+    },
+    "alumni": [
+      {
+        "name": "Pooja Saini",
+        "graduation_year": 2018,
+        "current_position": "Software Developer at Wipro",
+        "achievements": "Led the development of cloud-based solutions."
+      }
+    ],
+    "previous_year_cutoff": {
+      "general": 86,
+      "obc": 80,
+      "sc_st": 72,
+      "ews": 83
+    }
+  },
+  {
+    "college_id": 107,
+    "name": "Swami Keshvanand Institute of Technology",
+    "category": "Engineering",
+    "location": "Jaipur",
+    "fee_structure": {
+      "tuition_fee": "125,000 INR per year",
+      "hostel_fee": "45,000 INR per year",
+      "miscellaneous": "10,000 INR per year"
+    },
+    "curriculum": [
+      "B.Tech in Information Technology",
+      "B.Tech in Civil Engineering",
+      "B.Tech in Mechanical Engineering"
+    ],
+    "scholarships": [
+      {
+        "name": "SKIT Merit Scholarship",
+        "description": "25% tuition fee waiver for students scoring above 85% in 12th grade."
+      },
+      {
+        "name": "SKIT Need-Based Scholarship",
+        "description": "20% tuition fee waiver for students from low-income families."
+      }
+    ],
+    "hostel_facilities": {
+      "boys_hostel": "Available",
+      "girls_hostel": "Available",
+      "amenities": ["Wi-Fi", "Mess", "Library", "24/7 Security"]
+    },
+    "placement_scenario": {
+      "2023": {
+        "total_students_placed": 180,
+        "highest_package": "12 LPA",
+        "average_package": "6 LPA",
+        "top_recruiters": ["Infosys", "TCS", "Cognizant", "Wipro"]
+      }
+    },
+    "alumni": [
+      {
+        "name": "Vikas Gupta",
+        "graduation_year": 2017,
+        "current_position": "Project Manager at Cognizant",
+        "achievements": "Managed large-scale IT infrastructure projects."
+      }
+    ],
+    "previous_year_cutoff": {
+      "general": 82,
+      "obc": 75,
+      "sc_st": 68,
+      "ews": 78
+    }
+  },
+  {
+    "college_id": 108,
+    "name": "Malaviya National Institute of Technology",
+    "category": "Engineering",
+    "location": "Jaipur",
+    "fee_structure": {
+      "tuition_fee": "150,000 INR per year",
+      "hostel_fee": "50,000 INR per year",
+      "miscellaneous": "12,000 INR per year"
+    },
+    "curriculum": [
+      "B.Tech in Mechanical Engineering",
+      "B.Tech in Electrical Engineering",
+      "B.Tech in Computer Science",
+      "B.Tech in Metallurgical Engineering"
+    ],
+    "scholarships": [
+      {
+        "name": "MNIT Merit Scholarship",
+        "description": "50% tuition fee waiver for top 5% students."
+      },
+      {
+        "name": "MNIT Sports Scholarship",
+        "description": "20% tuition fee waiver for outstanding athletes."
+      }
+    ],
+    "hostel_facilities": {
+      "boys_hostel": "Available",
+      "girls_hostel": "Available",
+      "amenities": ["Wi-Fi", "Gym", "Sports Complex", "Library"]
+    },
+    "placement_scenario": {
+      "2023": {
+        "total_students_placed": 300,
+        "highest_package": "22 LPA",
+        "average_package": "10 LPA",
+        "top_recruiters": ["Microsoft", "Oracle", "L&T", "Mahindra"]
+      }
+    },
+    "alumni": [
+      {
+        "name": "Suresh Patel",
+        "graduation_year": 2016,
+        "current_position": "Mechanical Engineer at L&T",
+        "achievements": "Contributed to the design of advanced machinery."
+      }
+    ],
+    "previous_year_cutoff": {
+      "general": 90,
+      "obc": 82,
+      "sc_st": 75,
+      "ews": 87
+    }
+  },
+  {
+    "college_id": 109,
+    "name": "Poornima College of Engineering",
+    "category": "Engineering",
+    "location": "Jaipur",
+    "fee_structure": {
+      "tuition_fee": "110,000 INR per year",
+      "hostel_fee": "42,000 INR per year",
+      "miscellaneous": "9,000 INR per year"
+    },
+    "curriculum": [
+      "B.Tech in Computer Science",
+      "B.Tech in Civil Engineering",
+      "B.Tech in Electrical Engineering"
+    ],
+    "scholarships": [
+      {
+        "name": "Poornima Merit Scholarship",
+        "description": "20% tuition fee waiver for top 10% students."
+      },
+      {
+        "name": "Poornima Need-Based Scholarship",
+        "description": "15% tuition fee waiver for economically weaker sections."
+      }
+    ],
+    "hostel_facilities": {
+      "boys_hostel": "Available",
+      "girls_hostel": "Available",
+      "amenities": ["Wi-Fi", "Mess", "Library", "Cafeteria"]
+    },
+    "placement_scenario": {
+      "2023": {
+        "total_students_placed": 160,
+        "highest_package": "10 LPA",
+        "average_package": "5.5 LPA",
+        "top_recruiters": ["HCL", "Infosys", "Tech Mahindra", "Wipro"]
+      }
+    },
+    "alumni": [
+      {
+        "name": "Ritika Sharma",
+        "graduation_year": 2019,
+        "current_position": "Software Engineer at HCL",
+        "achievements": "Worked on cloud computing projects for global clients."
+      }
+    ],
+    "previous_year_cutoff": {
+      "general": 80,
+      "obc": 73,
+      "sc_st": 65,
+      "ews": 77
+    }
+  },
+  {
+    "college_id": 110,
+    "name": "Arya College of Engineering & IT",
+    "category": "Engineering",
+    "location": "Jaipur",
+    "fee_structure": {
+      "tuition_fee": "115,000 INR per year",
+      "hostel_fee": "45,000 INR per year",
+      "miscellaneous": "10,000 INR per year"
+    },
+    "curriculum": [
+      "B.Tech in Computer Science",
+      "B.Tech in Mechanical Engineering",
+      "B.Tech in Electrical Engineering",
+      "B.Tech in Electronics and Communication"
+    ],
+    "scholarships": [
+      {
+        "name": "Arya Merit Scholarship",
+        "description": "20% tuition fee waiver for students with 85% and above in 12th grade."
+      },
+      {
+        "name": "Arya Sports Scholarship",
+        "description": "15% tuition fee waiver for students with national-level sports achievements."
+      }
+    ],
+    "hostel_facilities": {
+      "boys_hostel": "Available",
+      "girls_hostel": "Available",
+      "amenities": ["Wi-Fi", "Cafeteria", "Library", "Gym"]
+    },
+    "placement_scenario": {
+      "2023": {
+        "total_students_placed": 170,
+        "highest_package": "14 LPA",
+        "average_package": "7 LPA",
+        "top_recruiters": ["Capgemini", "TCS", "Wipro", "Infosys"]
+      }
+    },
+    "alumni": [
+      {
+        "name": "Ankit Agarwal",
+        "graduation_year": 2018,
+        "current_position": "Software Engineer at Capgemini",
+        "achievements": "Implemented AI-driven solutions for clients in finance."
+      }
+    ],
+    "previous_year_cutoff": {
+      "general": 84,
+      "obc": 77,
+      "sc_st": 70,
+      "ews": 80
+    }
+  }
+]
