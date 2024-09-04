@@ -1,4 +1,4 @@
-function formatConvHistory(messages) {
+export default function formatConvHistory(messages) {
   return messages
     .map((message, i) => {
       if (i % 2 == 0) {
