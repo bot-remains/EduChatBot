@@ -1,10 +1,10 @@
 function formatConvHistory(messages) {
   return messages
     .map((message, i) => {
-      if (i % 2 === 0) {
-        return `User: ${message}`;
+      if (i % 2 == 0) {
+        return `AI: ${message}`;
       } else {
-        return `EduChat: ${message}`;
+        return `HUMAN: ${message}`;
       }
     })
     .join('\n');
