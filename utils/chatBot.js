@@ -58,13 +58,7 @@ export const chatBotResponse = async (statement) => {
     statement,
     // conversationHistory: historyFormat(conversationHistory),
   });
-  console.log(response);
   return response;
 };
-// await mainChain.invoke({
-//   statement:
-//     'What is the placement scenario in the Arya college of engineering & IT?',
-// conversationHistory: historyFormat(conversationHistory),
-// });
 // conversationHistory.push(question);
 // conversationHistory.push(response);

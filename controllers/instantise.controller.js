@@ -9,11 +9,11 @@ const openAIApiKey = process.env.OPENAI_API_KEY;
 const supabaseUrl = process.env.SUPABASE_PROJECT_URL;
 const supabaseKey = process.env.SUPABASE_API_KEY;
 
-export const instantiseVectorStore = async () => {
+export const instantiseVectorStore = async (_, res) => {
   try {
     const emebeddings = new OpenAIEmbeddings({ openAIApiKey });
 
-    const data = fs.readFileSync('../Data/sample-college-data.txt', 'utf8');
+    const data = fs.readFileSync('./Data/sample-college-data.txt', 'utf8');
     const splitter = new RecursiveCharacterTextSplitter({
       chunkSize: 500,
     });
@@ -21,12 +21,12 @@ export const instantiseVectorStore = async () => {
 
     const supabase = createClient(supabaseUrl, supabaseKey);
 
-    const instantiseSupabase = async () => {
-      await SupabaseVectorStore.fromDocuments(splittedText, emebeddings, {
-        client: supabase,
-        tableName: 'documents',
-      });
-    };
+    await SupabaseVectorStore.fromDocuments(splittedText, emebeddings, {
+      client: supabase,
+      tableName: 'documents',
+    });
+
+    res.status(200).json({ message: 'Instantized vector store' });
   } catch (e) {
     console.error(e);
   }
