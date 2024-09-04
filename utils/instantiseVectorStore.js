@@ -20,10 +20,12 @@ try {
 
   const supabase = createClient(supabaseUrl, supabaseKey);
 
-  await SupabaseVectorStore.fromDocuments(splittedText, emebeddings, {
-    client: supabase,
-    tableName: 'documents',
-  });
+  const instantiseSupabase = async () => {
+    await SupabaseVectorStore.fromDocuments(splittedText, emebeddings, {
+      client: supabase,
+      tableName: 'documents',
+    });
+  };
 } catch (e) {
   console.error(e);
 }
