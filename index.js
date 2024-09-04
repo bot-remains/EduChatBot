@@ -1,5 +1,4 @@
 import bodyParser from 'body-parser';
-import cors from 'cors';
 import 'dotenv/config';
 import express from 'express';
 import morgan from 'morgan';
@@ -9,7 +8,6 @@ import responseRoute from './routes/response.route.js';
 const app = express();
 try {
   app
-    .use(cors())
     .use(morgan('dev'))
     .use(bodyParser.json())
     .use(bodyParser.urlencoded({ extended: true }))
